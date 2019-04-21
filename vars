@@ -1,0 +1,8 @@
+ARCH=sparc32plus
+PORTAGE_ARCH=sparc
+
+die() {
+	local m="$1"
+	echo "FATAL: ${m}" >&2
+	exit 1
+}
